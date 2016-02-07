@@ -7,7 +7,7 @@ Stemmer_es es una implementación en javascript del algoritmo de Porter para el 
 
 ### Example - Ejemplo
 ```javascript
-var stemm = Stemmer_es.stem('Asombrosamente');
+var stem = Stemmer_es.stem('Asombrosamente');
 //returns asombr
 ```
 
