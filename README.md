@@ -11,4 +11,4 @@ var stemm = Stemmer_es.stemm('Asombrosamente');
 //returns asombr
 ```
 
-__Do not forget to visit my site: lopezezequiel.com__
+__Do not forget to visit my site: http://lopezezequiel.com__
