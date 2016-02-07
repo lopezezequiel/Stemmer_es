@@ -2,7 +2,7 @@ var test_dataset = [["a", "a"], ["aarón", "aaron"], ["abaco", "abac"], ["abajo"
 var errors = 0;
 
 test_dataset.forEach(function(row) {
-    var result = Stemmer_es.stemm(row[0]);
+    var result = Stemmer_es.stem(row[0]);
     if(result!=row[1]) {
         console.log('Fail: word(' + row[0] + ') expected(' + row[1] + ') result(' + result + ')');
         errors++;

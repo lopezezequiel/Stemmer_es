@@ -227,8 +227,8 @@ var Stemmer_es = new function() {
         return r.word;
     }
 
-    //stemm function
-    this.stemm = function(word) {
+    //stem function
+    this.stem = function(word) {
         word = word.toLowerCase().trim();
         var r = getRegions(word);
         word = step0(r);
