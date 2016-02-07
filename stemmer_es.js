@@ -2,6 +2,15 @@
  * @author   Ricardo Ezequiel López
  * @mail     mail@lopezezequiel.com
  * @license  GPLv2
+ * 
+ * 
+ * Stemmer_es is an implementation in javascript of the Porter algorithm
+ * for the Spanish language. It is based on this article:
+ * http://snowball.tartarus.org/algorithms/spanish/stemmer.html
+ *
+ * Stemmer_es es una implementación en javascript del algoritmo de 
+ * Porter para el idioma Español. Está basado en este artículo:
+ * http://snowball.tartarus.org/algorithms/spanish/stemmer.html
  */
 
 var Stemmer_es = new function() {
