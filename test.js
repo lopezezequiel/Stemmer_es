@@ -9,5 +9,5 @@ test_dataset.forEach(function(row) {
     }
 });
 
-Console.log('Words: ' + test_dataset.length);
-Console.log('Errors: ' + errors);
+console.log('Words: ' + test_dataset.length);
+console.log('Errors: ' + errors);

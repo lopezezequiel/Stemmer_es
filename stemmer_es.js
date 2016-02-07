@@ -13,7 +13,7 @@ var Stemmer_es = new function() {
 
     var rv_re = /^(.[^aeiouáéíóúü]+[aeiouáéíóúü]|[aeiouáéíóúü]{2,}[^aeiouáéíóúü]|[^aeiouáéíóúü][aeiouáéíóúü].)(.*)/;
 
-    var step0_suffixes = /((i[eé]ndo|[aá]ndo|[aáeéií]r|u?yendo)(sel[ao]s?|l[aeo]s?|nos|se|me))$/;
+    var step0_re = /((i[eé]ndo|[aá]ndo|[aáeéií]r|u?yendo)(sel[ao]s?|l[aeo]s?|nos|se|me))$/;
 
     var replace_accents = [
         [/á/g, 'a'],
@@ -101,7 +101,7 @@ var Stemmer_es = new function() {
         //me, se, sela, selo, selas, selos, la, le, lo, las, les, los, nos
         //and delete it, if comes after one of:
         //iéndo, ándo, ár, ér, ír, ando, iendo, ar, er, ir, yendo(following u)
-        var g = step0_suffixes.exec(r.rv);
+        var g = step0_re.exec(r.rv);
 
         if(g) {
             var w = r.word.substr(0, r.word.length-g[1].length);
