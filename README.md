@@ -10,3 +10,5 @@ Stemmer_es es una implementación en javascript del algoritmo de Porter para el 
 var stemm = Stemmer_es.stemm('Incorporación');
 //returns incorpor
 ```
+
+__Do not forget to visit my site: lopezezequiel.com__
