@@ -1,6 +1,6 @@
 /**
  * @author   Ricardo Ezequiel López
- * @email    mail@lopezezequiel.com
+ * @mail     mail@lopezezequiel.com
  * @license  GPLv2
  */
 
@@ -220,13 +220,14 @@ var Stemmer_es = new function() {
 
     //stemm function
     this.stemm = function(word) {
+        word = word.toLowerCase().trim();
         var r = getRegions(word);
-        var new_word = step0(r);
-        r = getRegions(new_word);
-        new_word = step1(r);
-        r = getRegions(new_word);
-        new_word = step3(r);
-        return removeAccents(new_word);
+        word = step0(r);
+        r = getRegions(word);
+        word = step1(r);
+        r = getRegions(word);
+        word = step3(r);
+        return removeAccents(word);
     }
 
 }();
