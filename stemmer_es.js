@@ -1,6 +1,6 @@
 /**
  * @author   Ricardo Ezequiel López
- * @mail     mail@lopezezequiel.com
+ * @contact  mail@lopezezequiel.com
  * @license  GPLv2
  * 
  * 
