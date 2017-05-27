@@ -14,4 +14,3 @@ var stem = Stemmer_es.stem('Asombrosamente');
 ### Project Website
 http://stemmer-es.lopezezequiel.com/
 
-__Do not forget to visit my site: http://lopezezequiel.com__
