@@ -1,7 +1,7 @@
 /**
  * @author   Ricardo Ezequiel López
  * @contact  mail@lopezezequiel.com
- * @license  GPLv2
+ * @license  GPLv3
  * 
  * 
  * Stemmer_es is an implementation in javascript of the Porter algorithm
@@ -240,3 +240,6 @@ var Stemmer_es = new function() {
     }
 
 }();
+
+
+module.exports = Stemmer_es;

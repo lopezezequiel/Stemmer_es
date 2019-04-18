@@ -1,0 +1,26 @@
+{
+  "name": "stemmer_es",
+  "version": "1.0.0",
+  "description": "Javascript Stemmer for Spanish - Lexemador Javascript del Español",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezezequiel/Stemmer_es.git"
+  },
+  "keywords": [
+    "stemmer",
+    "spanish",
+    "lexemador",
+    "porter",
+    "stemming"
+  ],
+  "author": "Lopez Ricardo Ezequiel",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/lopezezequiel/Stemmer_es/issues"
+  },
+  "homepage": "https://github.com/lopezezequiel/Stemmer_es#readme"
+}
