@@ -1,6 +1,6 @@
 {
   "name": "stemmer_es",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Javascript Stemmer for Spanish - Lexemador Javascript del Español",
   "main": "index.js",
   "scripts": {
