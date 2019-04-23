@@ -13,7 +13,7 @@
  * http://snowball.tartarus.org/algorithms/spanish/stemmer.html
  */
 
-var Stemmer_es = new function() {
+var stemmer_es = new function() {
 
     //RegExps
     //------------------------------------------------------------------
@@ -242,4 +242,4 @@ var Stemmer_es = new function() {
 }();
 
 
-module.exports = Stemmer_es;
+module.exports = stemmer_es;

@@ -16,7 +16,7 @@ npm install stemmer_es
 ```html
 <script src="/dist/stemmer_es.min.js"></script>
 <script type="text/javascript">
-  var stem = Stemmer_es.stem('Asombrosamente');
+  var stem = stemmer_es.stem('Asombrosamente');
   // stem = asombr
 </script>
 ```

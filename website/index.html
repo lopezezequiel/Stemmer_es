@@ -55,7 +55,7 @@
 				<div class="navbar-header">
 					<a class="navbar-brand"><strong>Stemmer_es.js</strong></a>
 					<p class="navbar-text">Lexemador Javascript del Español</p>
-					<p class="navbar-text"><a href="https://github.com/lopezezequiel/Stemmer_es">Download</a></p>
+					<p class="navbar-text"><a href="https://github.com/lopezezequiel/Stemmer_es">Github</a></p>
 				</div>
 			</div>
 		</nav>
@@ -68,14 +68,36 @@
 			</div>
 		</div>
 		
-		
 		<div class="panel panel-default">
-			<div class="panel-heading"><strong>Uso</strong></div>
+			<div class="panel-heading"><strong>Instalación</strong></div>
 			<div class="panel-body">
-				<pre><code>var stem = Stemmer_es.stem('Asombrosamente'); //returns asombr</code></pre>
+				<pre><code>npm install stemmer_es</code></pre>
 			</div>
 		</div>
 		
+		<div class="panel panel-default">
+			<div class="panel-heading"><strong>Uso en el browser</strong></div>
+			<div class="panel-body">
+				<pre><code>
+&lt;script src=&quot;/dist/stemmer_es.min.js&quot;&gt;&lt;/script&gt; 
+&lt;script type=&quot;text/javascript&quot;&gt; 
+	var stem = stemmer_es.stem('Asombrosamente'); // stem = asombr 
+&lt;/script&gt;
+				</code></pre>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><strong>Uso en Node</strong></div>
+			<div class="panel-body">
+				<pre><code>
+const stemmer_es = require('stemmer_es');
+
+var stem = stemmer_es.stem('Asombrosamente');
+//stem = asombr
+				</code></pre>
+			</div>
+		</div>		
 		
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>Demo</strong></div>
@@ -118,7 +140,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/javascript.min.js"></script>
-	<script src="https://cdn.rawgit.com/lopezezequiel/Stemmer_es/master/stemmer_es.min.js"></script>
+	<script src="js/stemmer_es.min.js"></script>
 
 	<!-- iniciar highlight.js -->
 	<script>hljs.initHighlightingOnLoad();</script>
@@ -135,7 +157,7 @@
 			var out = [];
 
 			for(var i=0; i<words.length; i++) {
-				out.push(Stemmer_es.stem(words[i]));
+				out.push(stemmer_es.stem(words[i]));
 			}
 
 			output.value = out.join(' ');
